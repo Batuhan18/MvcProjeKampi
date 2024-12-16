@@ -42,5 +42,9 @@ namespace MvcProjeKampi.Controllers
             am.AdminUpdate(p);
             return RedirectToAction("Index");
         }
+        public ActionResult Add()
+        {
+            return View();
+        }
     }
 }
